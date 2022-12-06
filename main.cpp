@@ -20,17 +20,15 @@ int main()
         cout << "3. MOSTRAR AYUDA" << endl;
         cout << "4. SALIR DEL JUEGO" << endl;
         cout << "Seleccione una opcion: ";
+        cout << endl;
         cin >> option;
         switch (option)
         {
         case 1:
-            startGame();
             break;
         case 2:
-            showScores();
             break;
         case 3:
-            help();
             break;
         case 4:
             return 0;
