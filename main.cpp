@@ -20,14 +20,13 @@ int main()
         cout << "3. MOSTRAR AYUDA" << endl;
         cout << "4. SALIR DEL JUEGO" << endl;
         cout << "Seleccione una opcion: ";
+        cout << endl;
         cin >> option;
         switch (option)
         {
         case 1:
-            startGame();
             break;
         case 2:
-            showScores();
             break;
         case 3:
             help();
@@ -39,4 +38,11 @@ int main()
         }
     } while (option != 4);
     return 0;
+}
+
+void help()
+{
+    cout << endl << "Hecho por Alejandro Fernandez" << endl;
+    cout << "Este proyecto se creo como practica para el lenguaje C++" << endl;
+    cout << "Esta es una implementacion temprana de este menu" << endl;
 }
