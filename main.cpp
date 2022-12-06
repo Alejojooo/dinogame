@@ -24,10 +24,13 @@ int main()
         switch (option)
         {
         case 1:
+            startGame();
             break;
         case 2:
+            showScores();
             break;
         case 3:
+            help();
             break;
         case 4:
             return 0;
